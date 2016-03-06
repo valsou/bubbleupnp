@@ -1,0 +1,70 @@
+<settings>
+    <nologfile>false</nologfile>
+    <enableAccessLog>true</enableAccessLog>
+    <wanHostname>slnd.eu</wanHostname>
+    <httpPort>58050</httpPort>
+    <httpsPort>58051</httpsPort>
+    <webContextPath>/</webContextPath>
+    <logLevel>INFO</logLevel>
+    <discoveryMaintenanceInterval>300</discoveryMaintenanceInterval>
+    <blastAliveInterval>0</blastAliveInterval>
+    <enableStreamProxyRequestLog>false</enableStreamProxyRequestLog>
+    <x264preset>medium</x264preset>
+    <disableAudioVideoTranscoding>false</disableAudioVideoTranscoding>
+    <disableImageTranscoding>false</disableImageTranscoding>
+    <allowWANConfigurationUI>false</allowWANConfigurationUI>
+    <thumbnailWidth>160</thumbnailWidth>
+    <useNumericIpInStreamURL>false</useNumericIpInStreamURL>
+    <transcodeHighResAudioToFLAC>false</transcodeHighResAudioToFLAC>
+    <transcodeAudioSeekable>false</transcodeAudioSeekable>
+    <ffprobeTimeoutSec>30</ffprobeTimeoutSec>
+    <accurateVideoSeekSec>10</accurateVideoSeekSec>
+    <disableUPnPPortForwarding>false</disableUPnPPortForwarding>
+    <disableAddIptableRules>false</disableAddIptableRules>
+    <disablePreventWindowsSleep>false</disablePreventWindowsSleep>
+    <disableAutoUpdate>false</disableAutoUpdate>
+    <disableChromecastSupport>false</disableChromecastSupport>
+    <disableGoogleCastDiscovery>false</disableGoogleCastDiscovery>
+    <logGoogleCastMessages>false</logGoogleCastMessages>
+    <monitorNetworkChangesInterval>30</monitorNetworkChangesInterval>
+    <login>pi</login>
+    <password>OBF:20771lx91u9p1lti1zen1lqg1u9t1m0x206z</password>
+    <allowWANConnections>true</allowWANConnections>
+    <version>2</version>
+    <firstRun>false</firstRun>
+    <devices class="java.util.ArrayList"/>
+    <renderers class="java.util.HashMap">
+        <entry udn="a27f9778-5980-fbdb-ffff-ffffd26958a8">
+            <renderer>
+                <openHomeEnable>false</openHomeEnable>
+                <openHomeRoom>BubbleUPnP (SM-G925F)</openHomeRoom>
+                <openHomeName>BubbleUPnP (SM-G925F)</openHomeName>
+                <openHomeUseEventing>false</openHomeUseEventing>
+                <openHomeTimeTaskPollingIntervalMs>900</openHomeTimeTaskPollingIntervalMs>
+                <openHomeEnableGapless>false</openHomeEnableGapless>
+                <credentials class="java.util.HashMap"/>
+                <openHomeTrackId>0</openHomeTrackId>
+                <openHomeQobuzAudioQuality>6</openHomeQobuzAudioQuality>
+                <openHomeTidalAudioQuality>LOSSLESS</openHomeTidalAudioQuality>
+                <enableGoogleCastDLNA>false</enableGoogleCastDLNA>
+            </renderer>
+        </entry>
+        <entry udn="0fce43af-314c-728e-ffff-ffffa316bdbc">
+            <renderer>
+                <openHomeEnable>true</openHomeEnable>
+                <openHomeRoom>Chambre</openHomeRoom>
+                <openHomeName>Chambre</openHomeName>
+                <openHomeUseEventing>false</openHomeUseEventing>
+                <openHomeTimeTaskPollingIntervalMs>900</openHomeTimeTaskPollingIntervalMs>
+                <openHomeEnableGapless>false</openHomeEnableGapless>
+                <credentials class="java.util.HashMap"/>
+                <openHomeTrackId>0</openHomeTrackId>
+                <openHomeQobuzAudioQuality>6</openHomeQobuzAudioQuality>
+                <openHomeTidalAudioQuality>LOSSLESS</openHomeTidalAudioQuality>
+                <enableGoogleCastDLNA>false</enableGoogleCastDLNA>
+            </renderer>
+        </entry>
+    </renderers>
+    <superServerMaxAudioBitrate>320</superServerMaxAudioBitrate>
+    <superServerMaxAudioBitrateLosslessOnly>true</superServerMaxAudioBitrateLosslessOnly>
+</settings>
