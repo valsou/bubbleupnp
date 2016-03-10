@@ -28,7 +28,7 @@
     <logGoogleCastMessages>false</logGoogleCastMessages>
     <monitorNetworkChangesInterval>30</monitorNetworkChangesInterval>
     <login>pi</login>
- 	<password>musictilthe3nd</password>
+ 	<password>yourpassword</password>
     <allowWANConnections>true</allowWANConnections>
     <version>2</version>
     <firstRun>false</firstRun>
